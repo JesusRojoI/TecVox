@@ -7,13 +7,13 @@ import { useLanguage } from '@/contexts/LanguageContext'
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa'
 
 export default function CommitmentSection() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   const features = [
-    'Profesionales altamente capacitados',
-    'Experiencia comprobada en el sector',
-    'Pasión por la tecnología',
-    'Resultados excepcionales garantizados',
+    language === 'en' ? 'Highly trained professionals' : 'Profesionales altamente capacitados',
+    language === 'en' ? 'Proven experience in the sector' : 'Experiencia comprobada en el sector',
+    language === 'en' ? 'Passion for technology' : 'Pasión por la tecnología',
+    language === 'en' ? 'Exceptional results guaranteed' : 'Resultados excepcionales garantizados',
   ]
 
   return (
@@ -27,7 +27,8 @@ export default function CommitmentSection() {
             <div className="relative">
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=800&fit=crop"                  alt="Professional team"
+                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=800&fit=crop"
+                  alt="Professional team"
                   width={600}
                   height={800}
                   className="w-full h-full object-cover"

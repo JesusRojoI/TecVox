@@ -6,23 +6,29 @@ import { useLanguage } from '@/contexts/LanguageContext'
 import { FaCheckCircle, FaShieldAlt, FaSync, FaHeadset } from 'react-icons/fa'
 
 export default function OfferSection() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   const features = [
     {
       icon: <FaSync className="w-6 h-6" />,
-      title: 'Actualización de software',
-      description: 'Mantenemos tus sistemas al día con las últimas versiones y parches de seguridad.',
+      title: language === 'en' ? 'Software Updates' : 'Actualización de software',
+      description: language === 'en' 
+        ? 'We keep your systems up to date with the latest versions and security patches.'
+        : 'Mantenemos tus sistemas al día con las últimas versiones y parches de seguridad.',
     },
     {
       icon: <FaShieldAlt className="w-6 h-6" />,
-      title: 'Reparación de hardware',
-      description: 'Diagnóstico y reparación profesional de todos tus equipos de cómputo.',
+      title: language === 'en' ? 'Hardware Repair' : 'Reparación de hardware',
+      description: language === 'en'
+        ? 'Professional diagnosis and repair of all your computer equipment.'
+        : 'Diagnóstico y reparación profesional de todos tus equipos de cómputo.',
     },
     {
       icon: <FaHeadset className="w-6 h-6" />,
-      title: 'Monitoreo continuo',
-      description: 'Vigilancia 24/7 para detectar y prevenir fallas antes de que ocurran.',
+      title: language === 'en' ? 'Continuous Monitoring' : 'Monitoreo continuo',
+      description: language === 'en'
+        ? '24/7 surveillance to detect and prevent failures before they occur.'
+        : 'Vigilancia 24/7 para detectar y prevenir fallas antes de que ocurran.',
     },
   ]
 
@@ -72,10 +78,9 @@ export default function OfferSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-tecvox-black/60 to-transparent"></div>
               
               {/* Stats flotantes */}
-              
               <div className="absolute bottom-6 left-6 bg-tecvox-black/80 backdrop-blur-sm rounded-xl p-4 text-white text-center shadow-xl">
                 <span className="text-3xl font-bold block">24/7</span>
-                <span className="text-sm">Soporte</span>
+                <span className="text-sm">{language === 'en' ? 'Support' : 'Soporte'}</span>
               </div>
             </div>
           </div>

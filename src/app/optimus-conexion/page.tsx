@@ -97,12 +97,12 @@ export default function OptimusConexionPage() {
         </div>
       </section>
 
-      {/* Formulario y Contacto */}
+      {/* Formulario de Contacto */}
       <section className="py-16 bg-tecvox-dark relative overflow-hidden">
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-tecvox-blue/5 rounded-full blur-3xl"></div>
         
         <div className="max-w-7xl mx-auto px-4 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Formulario */}
             <div className="animate-fade-in-up">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
@@ -187,102 +187,28 @@ export default function OptimusConexionPage() {
               </form>
             </div>
 
-            {/* Información de contacto e imagen */}
-            <div className="space-y-8 animate-fade-in-right">
-              {/* Imagen */}
-              <div className="relative h-64 rounded-2xl overflow-hidden shadow-xl">
+            {/* Imagen a la derecha */}
+            <div className="animate-fade-in-right">
+              <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=800&fit=crop"
                   alt="Contact"
                   width={600}
-                  height={400}
+                  height={800}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-tecvox-black/60 to-transparent"></div>
-              </div>
-
-              {/* Contacto */}
-              <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-white">
-                  {language === 'en' ? 'Contact Us' : 'Contáctanos'}
-                </h3>
-
-                <div className="glass rounded-2xl p-6">
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-tecvox-blue/20 rounded-xl flex items-center justify-center text-tecvox-blue-accent flex-shrink-0">
-                        <HiMail className="w-6 h-6" />
-                      </div>
-                      <div>
-                        <p className="text-tecvox-gray text-sm mb-1">{language === 'en' ? 'Email' : 'Email'}</p>
-                        <a href="mailto:atencion@tecvox.com.mx" className="text-white font-semibold hover:text-tecvox-blue-accent transition-colors">
-                          atencion@tecvox.com.mx
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-tecvox-blue/20 rounded-xl flex items-center justify-center text-tecvox-blue-accent flex-shrink-0">
-                        <HiPhone className="w-6 h-6" />
-                      </div>
-                      <div>
-                        <p className="text-tecvox-gray text-sm mb-1">{language === 'en' ? 'Phone' : 'Teléfono'}</p>
-                        <a href="tel:5552731980" className="text-white font-semibold hover:text-tecvox-blue-accent transition-colors">
-                          (+52) 55 5273 1980
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                <div className="absolute bottom-0 left-0 right-0 p-8">
+                  <h3 className="text-2xl font-bold text-white mb-2">
+                    {language === 'en' ? 'We are here to help' : 'Estamos para ayudarte'}
+                  </h3>
+                  <p className="text-tecvox-gray-light">
+                    {language === 'en' 
+                      ? 'Contact us and we will respond within 24 hours.' 
+                      : 'Contáctanos y te responderemos en menos de 24 horas.'
+                    }
+                  </p>
                 </div>
-
-                {/* Botones */}
-                <div className="flex flex-wrap gap-4">
-                  <Link href="/#contacto" className="btn-primary inline-flex items-center gap-2">
-                    <HiMail className="w-4 h-4" />
-                    {language === 'en' ? 'Contact Us' : 'Contáctanos'}
-                  </Link>
-                  <Link href="/soluciones-digitales" className="btn-outline inline-flex items-center gap-2">
-                    <FaArrowRight className="w-4 h-4" />
-                    {language === 'en' ? 'View Solutions' : 'Ver soluciones'}
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Segunda imagen decorativa */}
-      <section className="py-16 bg-tecvox-black relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-80 h-80 bg-tecvox-blue/5 rounded-full blur-3xl"></div>
-        
-        <div className="max-w-7xl mx-auto px-4 relative z-10">
-          <div className="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
-            <Image
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=400&fit=crop"
-              alt="Team"
-              width={1200}
-              height={400}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-tecvox-black/80 via-tecvox-black/40 to-transparent flex items-center">
-              <div className="p-8 md:p-12 max-w-lg">
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  {language === 'en' 
-                    ? 'Ready to take your technology to the next level?'
-                    : '¿Listo para llevar tu tecnología al siguiente nivel?'
-                  }
-                </h3>
-                <p className="text-tecvox-gray-light mb-6">
-                  {language === 'en'
-                    ? 'Our team of experts is ready to help you find the perfect solution for your business.'
-                    : 'Nuestro equipo de expertos está listo para ayudarte a encontrar la solución perfecta para tu negocio.'
-                  }
-                </p>
-                <Link href="/planes-optimus" className="btn-primary inline-flex items-center gap-2">
-                  <FaArrowRight className="w-4 h-4" />
-                  {language === 'en' ? 'View Plans' : 'Ver planes'}
-                </Link>
               </div>
             </div>
           </div>

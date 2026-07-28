@@ -8,7 +8,7 @@ import { HiPhone, HiMail } from 'react-icons/hi'
 import { FaShieldAlt, FaHeadset, FaCogs } from 'react-icons/fa'
 
 export default function HeroSection() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   return (
     <section className="min-h-screen flex items-center relative overflow-hidden pt-24 pb-16">
@@ -38,7 +38,10 @@ export default function HeroSection() {
             </h1>
             
             <p className="text-tecvox-gray text-lg max-w-lg">
-              Mantenemos tu infraestructura tecnológica en óptimas condiciones con soluciones integrales y profesionales certificados.
+              {language === 'en' 
+                ? 'We keep your technological infrastructure in optimal conditions with comprehensive solutions and certified professionals.'
+                : 'Conservamos tu infraestructura tecnológica en condiciones óptimas mediante soluciones integrales y personal certificado.'
+              }
             </p>
 
             <Link href="/planes-optimus" className="btn-primary inline-flex items-center gap-2 text-lg px-8 py-4">

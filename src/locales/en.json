@@ -14,7 +14,7 @@
     "language": "ES"
   },
   "footer": {
-    "description": "We specialize in computer equipment maintenance to ensure your technological infrastructure is always in optimal condition.",
+    "description": "We provide specialized computer equipment maintenance to keep your technological infrastructure running at its best.",
     "contact": "Contact",
     "links": "Links",
     "dashboard": "Dashboard",
@@ -37,7 +37,7 @@
     "services": {
       "title": "What We Do",
       "subtitle": "Our Services",
-      "description": "We specialize in computer equipment maintenance, offering comprehensive solutions to ensure your technological infrastructure is always in optimal conditions.",
+      "description": "We deliver comprehensive computer equipment maintenance solutions, ensuring your technological infrastructure always performs at peak efficiency.",
       "cta": "View Plans",
       "card1": "IT Systems Maintenance",
       "card2": "Computer Equipment Maintenance",
@@ -48,21 +48,21 @@
       "subtitle": "Our Values",
       "value1": {
         "title": "Integrity and Transparency",
-        "description": "We operate with honesty and clarity in all our interactions, building relationships of trust and credibility with clients and partners."
+        "description": "We act with clarity and uprightness in every interaction, building bonds of trust and credibility with clients and partners."
       },
       "value2": {
         "title": "Constant Innovation",
-        "description": "We foster an environment of creativity and continuous improvement, seeking new ways to optimize and modernize our technological solutions."
+        "description": "We foster a creative environment of continuous improvement, exploring new ways to renew and enhance our technological solutions."
       },
       "value3": {
         "title": "Customer Orientation",
-        "description": "We put our customers at the center of everything, listening to their needs and adapting our services to deliver maximum value."
+        "description": "We place the customer at the center of our decisions, listening to their requirements and tailoring our services to deliver the greatest possible value."
       }
     },
     "commitment": {
       "title": "Committed to Exceptional Results",
       "subtitle": "Quality Service",
-      "description": "Our company is distinguished by a team of highly trained and committed professionals, who combine experience and passion for technology to deliver exceptional results in every project.",
+      "description": "We have a team of experienced and dedicated professionals who blend technical expertise and technological passion to achieve outstanding results in every initiative.",
       "cta": "View Plans"
     },
     "cta": {
@@ -72,7 +72,7 @@
     "offer": {
       "title": "Our Offer",
       "subtitle": "Quality Technological Maintenance.",
-      "description": "Our services ensure your systems operate optimally and without interruptions. Includes software updates, hardware repair, continuous monitoring, and failure prevention."
+      "description": "We guarantee your systems will operate smoothly and without interruptions. This includes software updates, hardware repairs, continuous monitoring, and failure prevention."
     },
     "contact": {
       "title": "Leave Your Comments",
@@ -131,7 +131,7 @@
   "success": {
     "title": "Purchase Successful!",
     "subtitle": "Your payment has been processed successfully",
-    "description": "We have sent a confirmation email to your address. If you have any questions, contact us at atencion@tecvox.com.mx",
+    "description": "We have sent a confirmation email. If you have questions, reach us at atencion@tecvox.com.mx",
     "transaction": "Transaction",
     "date": "Date",
     "total": "Total",
@@ -142,8 +142,8 @@
     "title": "Custom Plan",
     "subtitle": "Custom Plan",
     "description": "Request a Quote",
-    "info": "One of our experts will contact you with the plan you need. Contact us here.",
-    "help": "If you need help, write to us at atencion@tecvox.com.mx.",
+    "info": "One of our specialists will contact you with the right plan for your needs. Write to us here.",
+    "help": "If you need assistance, write to atencion@tecvox.com.mx.",
     "folio": "Enter the folio provided by your sales executive",
     "folioPlaceholder": "Ex. OM-12345",
     "amount": "Enter the amount to pay provided by your sales executive",
@@ -155,12 +155,12 @@
     "title": "TecVox Team",
     "breadcrumb": "Home/TecVox Team",
     "hero": "At TecVox",
-    "heroDescription": "We will take care of technological maintenance with our professionals.",
-    "heroSub": "Contact us and we will keep your systems up to date, ensuring their optimal functioning.",
+    "heroDescription": "We take care of technological maintenance with our team of professionals.",
+    "heroSub": "Contact us and we will keep your systems updated, ensuring their ideal performance.",
     "cta": "Contact Us",
     "solutions": "Customized and Advanced Solutions",
     "solutionsTitle": "For Companies of All Sizes",
-    "solutionsDescription": "From small businesses to large corporations, our goal is to provide a personalized service that adapts to the specific needs of each client."
+    "solutionsDescription": "From small businesses to large corporations, our goal is to provide a tailored service that adapts to the specific needs of each client."
   },
   "soluciones": {
     "title": "Digital Solutions",
@@ -178,19 +178,19 @@
       "title": "IT Systems Maintenance",
       "soporte": {
         "title": "Specialized Technical Support",
-        "description": "Our team of certified technicians is available to solve any technical problem you may face, whether through remote assistance or on-site visits. We ensure your systems function optimally, minimizing downtime and ensuring continuous operation."
+        "description": "Our certified technicians are ready to handle any incident, whether through remote or on-site assistance. We focus on keeping your systems running efficiently, reducing downtime and ensuring service continuity."
       },
       "actualizaciones": {
         "title": "Software Updates",
-        "description": "Keeping your systems updated is crucial for security and performance. We manage all software updates, from operating systems to specific applications, ensuring all components work in harmony and with the latest security enhancements."
+        "description": "Constant system updates are vital for protection and performance. We manage all software upgrades, covering operating systems and specific applications, so every component works properly with the latest security patches."
       },
       "redes": {
         "title": "Network Optimization",
-        "description": "An efficient network is the backbone of any technological operation. We offer network analysis and optimization services to ensure your data is transmitted quickly and securely. This includes router, switch, firewall configuration and the implementation of secure network policies."
+        "description": "An effective network is the backbone of any technological environment. We offer network review and optimization services so your data flows quickly and securely. This includes router, switch, firewall configuration and secure network policies."
       },
       "monitoreo": {
         "title": "Proactive Monitoring",
-        "description": "We implement continuous monitoring solutions that detect and alert on any anomalies in your systems. This allows us to anticipate potential problems and take preventive measures before they affect your operation."
+        "description": "We install permanent monitoring tools that detect and report irregularities in your systems. This allows us to anticipate incidents and apply solutions before they impact your operation."
       }
     },
     "cta1": "View Plans",
@@ -203,15 +203,15 @@
       "title": "Computer Equipment Maintenance",
       "diagnostico": {
         "title": "Diagnosis and Repair",
-        "description": "We perform complete diagnostics to identify any problems in your computer equipment. (SOFTWARE)"
+        "description": "We perform comprehensive diagnostics to detect any issue in your computer equipment. (SOFTWARE)"
       },
       "preventivo": {
         "title": "Preventive Maintenance",
-        "description": "To ensure your equipment remains competitive and efficient, we offer software update services, such as cleaning, diagnosis, updates, and preventive maintenance."
+        "description": "To keep your equipment competitive and efficient, we provide software update services including cleaning, diagnosis, upgrades, and preventive maintenance."
       },
       "inventario": {
         "title": "Inventory Management",
-        "description": "We help manage your equipment inventory, keeping a detailed record of each device and its status. This facilitates planning for future purchases and scheduled maintenance."
+        "description": "We assist you in equipment inventory management, documenting each device and its condition. This simplifies procurement planning and scheduled maintenance."
       }
     },
     "cta1": "Request Diagnosis",
@@ -224,23 +224,23 @@
       "title": "Technology Consulting",
       "evaluacion": {
         "title": "Evaluation and Diagnosis",
-        "description": "We perform a comprehensive evaluation of your current systems to identify areas for improvement and opportunities for implementing new technologies. Our analysis includes aspects such as operational efficiency, information security, and system scalability."
+        "description": "We conduct a detailed analysis of your current systems to discover areas for improvement and opportunities to incorporate new technologies. Our study considers operational efficiency, data protection, and growth capacity."
       },
       "planificacion": {
         "title": "Strategic Planning",
-        "description": "We develop a technology plan aligned with your business objectives. This plan includes recommendations on hardware and software acquisition, implementation of new technological solutions, and improvement of existing processes."
+        "description": "We design a technological roadmap aligned with your company's goals. It includes suggestions on hardware and software acquisition, integration of new tools, and improvement of current processes."
       },
       "implementacion": {
         "title": "Solution Implementation",
-        "description": "Our team accompanies you at every step of implementing new technologies. From supplier selection to system configuration and startup, we ensure each solution integrates perfectly with your existing infrastructure and brings maximum value to your operation."
+        "description": "We guide you through every phase of adopting new technologies. From supplier selection to installation and startup, we ensure each solution fits seamlessly into your infrastructure and delivers maximum benefit."
       },
       "capacitacion": {
         "title": "Training and Support",
-        "description": "We offer training programs for your team, ensuring all users are familiar with new technologies and can use them effectively. Additionally, we provide ongoing support to resolve any questions or problems that may arise."
+        "description": "We provide training programs for your staff, ensuring everyone masters the new tools and uses them effectively. Additionally, we offer ongoing support to address questions or resolve issues."
       },
       "gestion": {
         "title": "Change Management",
-        "description": "Implementing new technologies can be a challenge for any organization. We help you manage this change effectively, ensuring a smooth transition and minimizing any disruption to your operations."
+        "description": "Adopting new technologies can be complex for any organization. We help you manage this process effectively, facilitating an orderly transition and minimizing disruptions to your activities."
       }
     },
     "cta1": "Request Diagnosis",
@@ -251,17 +251,17 @@
     "breadcrumb": "Home/TecVox Plans",
     "subtitle": "The Best Price",
     "title2": "We Have a Plan for Your Needs",
-    "description": "We offer customized solutions that adapt to your requirements. Our commitment is to provide you with high quality without compromising your budget.",
+    "description": "We offer customized alternatives that adjust to your requirements. Our priority is to provide you with superior quality without compromising your budget.",
     "iva": "+ VAT",
     "cta": "Hire Now",
     "personalizado": {
       "title": "Custom Plan",
-      "description": "We know each company has unique needs, that's why we offer a personalized service, designed especially for your infrastructure, workload, and technological goals.",
-      "subdescription": "We can adapt an exclusive package with the name you choose, or under our \"Custom Plan\" proposal, integrating only what you really need.",
+      "description": "We understand that every organization has unique needs, so we design a tailored service, created for your infrastructure, operational workload, and technology goals.",
+      "subdescription": "We can build an exclusive package with the name you choose, or according to our \"Custom Plan\", including only what you truly need.",
       "hasQuote": "Already have a quote?",
-      "hasQuoteDescription": "You can proceed with secure online payment to start immediately.",
+      "hasQuoteDescription": "You can make a secure online payment to get started right away.",
       "noQuote": "Don't have a quote yet?",
-      "noQuoteDescription": "Contact us to schedule a quick free consultation; we evaluate your case and send a proposal in less than 24 hours.",
+      "noQuoteDescription": "Contact us to schedule a brief free consultation; we analyze your case and send a proposal within 24 hours.",
       "payment": "Payment",
       "contact": "Contact"
     },

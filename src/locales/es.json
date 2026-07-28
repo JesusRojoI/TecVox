@@ -14,7 +14,7 @@
     "language": "EN"
   },
   "footer": {
-    "description": "Nos especializamos en el mantenimiento de equipos de cómputo, para asegurar que tu infraestructura tecnológica esté siempre en condiciones óptimas.",
+    "description": "Brindamos mantenimiento especializado en equipos de cómputo para conservar tu infraestructura tecnológica funcionando de manera óptima.",
     "contact": "Contacto",
     "links": "Enlaces",
     "dashboard": "Dashboard",
@@ -37,7 +37,7 @@
     "services": {
       "title": "Lo que hacemos",
       "subtitle": "Nuestros servicios",
-      "description": "Nos especializamos en el mantenimiento de equipos de cómputo, ofreciendo soluciones integrales para asegurar que tu infraestructura tecnológica siempre esté en óptimas condiciones.",
+      "description": "Ofrecemos soluciones integrales de mantenimiento de equipos de cómputo, garantizando que tu infraestructura tecnológica funcione siempre al máximo rendimiento.",
       "cta": "Ver planes",
       "card1": "Mantenimiento de sistemas TI",
       "card2": "Mantenimiento de equipos de cómputo",
@@ -48,21 +48,21 @@
       "subtitle": "Nuestros valores",
       "value1": {
         "title": "Integridad y Transparencia",
-        "description": "Operamos con honestidad y claridad en todas nuestras interacciones, construyendo relaciones de confianza y credibilidad con clientes y socios."
+        "description": "Actuamos con claridad y rectitud en cada interacción, generando vínculos de confianza y credibilidad con clientes y aliados."
       },
       "value2": {
         "title": "Innovación Constante",
-        "description": "Fomentamos un ambiente de creatividad y mejora continua, buscando nuevas formas de optimizar y modernizar nuestras soluciones tecnológicas."
+        "description": "Promovemos un entorno creativo y de perfeccionamiento continuo, explorando alternativas para renovar y potenciar nuestras soluciones tecnológicas."
       },
       "value3": {
         "title": "Orientación al Cliente",
-        "description": "Ponemos a nuestros clientes en el centro de todo, escuchando sus necesidades y adaptando nuestros servicios para ofrecer el máximo valor."
+        "description": "Colocamos al cliente en el centro de nuestras decisiones, atendiendo sus requerimientos y ajustando nuestros servicios para entregar el mayor valor posible."
       }
     },
     "commitment": {
       "title": "Comprometidos con resultados excepcionales",
       "subtitle": "Calidad en el servicio",
-      "description": "Nuestra empresa se distingue por un equipo de profesionales altamente capacitados y comprometidos, que combinan experiencia y pasión por la tecnología para ofrecer resultados excepcionales en cada proyecto.",
+      "description": "Contamos con un equipo de profesionales experimentados y dedicados, que fusionan conocimiento técnico y vocación tecnológica para lograr resultados sobresalientes en cada iniciativa.",
       "cta": "Ver planes"
     },
     "cta": {
@@ -72,7 +72,7 @@
     "offer": {
       "title": "Nuestra oferta",
       "subtitle": "Mantenimiento tecnológico de calidad.",
-      "description": "Nuestros servicios aseguran que tus sistemas operen de forma óptima y sin interrupciones. Incluye actualización de software, reparación de hardware, monitoreo continuo y prevención de fallas."
+      "description": "Garantizamos que tus sistemas trabajen con fluidez y sin interrupciones. Esto contempla actualizaciones de software, reparaciones de hardware, supervisión permanente y prevención de fallos."
     },
     "contact": {
       "title": "Déjanos tus comentarios",
@@ -119,7 +119,7 @@
     "phone": "Teléfono",
     "email": "Email",
     "payment": "Datos de pago",
-    "paymentDescription": "Ingresa los datos de tu tarjeta para completar el pago de forma segura.",
+    "paymentDescription": "Proporciona los datos de tu tarjeta para efectuar el pago con total seguridad.",
     "cardholder": "Titular",
     "cardNumber": "Número de tarjeta",
     "expiry": "Vencimiento",
@@ -131,7 +131,7 @@
   "success": {
     "title": "¡Compra Exitosa!",
     "subtitle": "Tu pago ha sido procesado correctamente",
-    "description": "Hemos enviado un correo de confirmación a tu email. Si tienes alguna duda, contáctanos en atencion@tecvox.com.mx",
+    "description": "Te enviamos un correo de confirmación. Si tienes preguntas, comunícate con nosotros en atencion@tecvox.com.mx",
     "transaction": "Transacción",
     "date": "Fecha",
     "total": "Total",
@@ -142,7 +142,7 @@
     "title": "Plan personalizado",
     "subtitle": "Plan Personalizado",
     "description": "Solicita una cotización",
-    "info": "Alguno de nuestros expertos se pondrá en contacto contigo con el plan que necesitas. Contáctanos aquí.",
+    "info": "Uno de nuestros especialistas te contactará con el plan adecuado para ti. Escríbenos aquí.",
     "help": "Si requieres ayuda, escríbenos a atencion@tecvox.com.mx.",
     "folio": "Ingresa el folio proporcionado por tu ejecutivo de ventas",
     "folioPlaceholder": "Ej. OM-12345",
@@ -155,12 +155,12 @@
     "title": "Equipo TecVox",
     "breadcrumb": "Inicio/Equipo TecVox",
     "hero": "En TecVox",
-    "heroDescription": "Nos haremos cargo del mantenimiento tecnológico con nuestros profesionales.",
-    "heroSub": "Contáctanos y mantendremos tus sistemas al día, asegurando su óptimo funcionamiento.",
+    "heroDescription": "Nos encargamos del mantenimiento tecnológico con nuestro equipo de profesionales.",
+    "heroSub": "Contáctanos y conservaremos tus sistemas actualizados, garantizando su desempeño ideal.",
     "cta": "Contáctanos",
     "solutions": "Soluciones Personalizadas y Avanzadas",
     "solutionsTitle": "Para empresas de todos los tamaños",
-    "solutionsDescription": "Desde pequeñas empresas hasta grandes corporaciones, nuestro objetivo es brindar un servicio personalizado que se adapte a las necesidades específicas de cada cliente."
+    "solutionsDescription": "Desde pequeños negocios hasta grandes corporativos, nuestra meta es proporcionar un servicio a la medida que se ajuste a los requerimientos particulares de cada cliente."
   },
   "soluciones": {
     "title": "Soluciones Digitales",
@@ -178,19 +178,19 @@
       "title": "Mantenimiento de Sistemas TI",
       "soporte": {
         "title": "Soporte técnico especializado",
-        "description": "Nuestro equipo de técnicos certificados está disponible para resolver cualquier problema técnico que puedas enfrentar, ya sea a través de asistencia remota o visitas en sitio. Nos aseguramos de que tus sistemas funcionen de manera óptima, minimizando el tiempo de inactividad y asegurando una operación continua."
+        "description": "Contamos con técnicos certificados listos para atender cualquier incidencia, mediante asistencia a distancia o presencial. Nos enfocamos en mantener tus sistemas operando con eficiencia, reduciendo tiempos de paro y asegurando la continuidad del servicio."
       },
       "actualizaciones": {
         "title": "Actualizaciones de software",
-        "description": "Mantener tus sistemas actualizados es crucial para la seguridad y el rendimiento. Nos encargamos de gestionar todas las actualizaciones de software, desde sistemas operativos hasta aplicaciones específicas, garantizando que todos los componentes funcionen en armonía y con las últimas mejoras de seguridad."
+        "description": "La actualización constante de tus sistemas es vital para la protección y el desempeño. Administramos todas las mejoras de software, abarcando sistemas operativos y aplicaciones concretas, para que cada componente funcione correctamente y con los últimos parches de seguridad."
       },
       "redes": {
         "title": "Optimización de redes",
-        "description": "Una red eficiente es la columna vertebral de cualquier operación tecnológica. Ofrecemos servicios de análisis y optimización de redes para asegurar que tus datos se transmitan de manera rápida y segura. Esto incluye la configuración de routers, switches, firewalls y la implementación de políticas de red seguras."
+        "description": "Una red eficaz es el pilar de cualquier entorno tecnológico. Brindamos servicios de revisión y optimización de redes para que tu información fluya con velocidad y protección. Esto abarca configuración de routers, switches, firewalls y políticas de red seguras."
       },
       "monitoreo": {
         "title": "Monitoreo proactivo",
-        "description": "Implementamos soluciones de monitoreo continuo que detectan y alertan sobre cualquier anomalía en tus sistemas. Esto nos permite anticiparnos a posibles problemas y tomar medidas preventivas antes de que afecte tu operación."
+        "description": "Instalamos herramientas de supervisión permanente que identifican y notifican irregularidades en tus sistemas. Así podemos adelantarnos a los incidentes y aplicar soluciones antes de que impacten tu operación."
       }
     },
     "cta1": "Ver planes",
@@ -203,15 +203,15 @@
       "title": "Mantenimiento de equipos de cómputo",
       "diagnostico": {
         "title": "Diagnóstico y reparación",
-        "description": "Realizamos diagnósticos completos para identificar cualquier problema en tus equipos de cómputo. (SOFTWARE)"
+        "description": "Efectuamos diagnósticos integrales para detectar cualquier falla en tus equipos de cómputo. (SOFTWARE)"
       },
       "preventivo": {
         "title": "Mantenimiento preventivo",
-        "description": "Para asegurar que tus equipos sigan siendo competitivos y eficientes, ofrecemos servicios de actualización de software, como limpieza, diagnóstico, actualizaciones y mantenimiento preventivo."
+        "description": "Para conservar la competitividad y eficiencia de tus equipos, brindamos servicios de actualización de software que incluyen limpieza, diagnóstico, mejoras y mantenimiento preventivo."
       },
       "inventario": {
         "title": "Gestión de inventario",
-        "description": "Ayudamos a gestionar el inventario de tus equipos, llevando un registro detallado de cada dispositivo y su estado. Esto facilita la planificación de futuras compras y el mantenimiento programado."
+        "description": "Te auxiliamos en la administración del inventario de equipos, documentando cada dispositivo y su condición. Esto simplifica la planeación de adquisiciones y el mantenimiento programado."
       }
     },
     "cta1": "Solicitar diagnóstico",
@@ -224,23 +224,23 @@
       "title": "Consultoría tecnológica",
       "evaluacion": {
         "title": "Evaluación y diagnóstico",
-        "description": "Realizamos una evaluación exhaustiva de tus sistemas actuales para identificar áreas de mejora y oportunidades para la implementación de nuevas tecnologías. Nuestro análisis incluye aspectos como la eficiencia operativa, la seguridad de la información y la escalabilidad de tus sistemas."
+        "description": "Realizamos un análisis detallado de tus sistemas vigentes para descubrir puntos de mejora y posibilidades de incorporar nuevas tecnologías. Nuestro estudio considera eficiencia operativa, protección de datos y capacidad de crecimiento."
       },
       "planificacion": {
         "title": "Planificación estratégica",
-        "description": "Desarrollamos un plan tecnológico alineado con los objetivos de tu negocio. Este plan incluye recomendaciones sobre la adquisición de hardware y software, la implementación de nuevas soluciones tecnológicas y la mejora de los procesos existentes."
+        "description": "Diseñamos una hoja de ruta tecnológica congruente con las metas de tu empresa. Incluye sugerencias sobre compra de hardware y software, integración de nuevas herramientas y perfeccionamiento de los procesos actuales."
       },
       "implementacion": {
         "title": "Implementación de soluciones",
-        "description": "Nuestro equipo te acompaña en cada paso de la implementación de nuevas tecnologías. Desde la selección de proveedores hasta la configuración y puesta en marcha de sistemas, nos aseguramos de que cada solución se integre perfectamente con tu infraestructura existente y aporte el máximo valor a tu operación."
+        "description": "Te guiamos en cada fase de la adopción de nuevas tecnologías. Desde la elección de proveedores hasta la instalación y arranque, cuidamos que cada solución se acople sin problemas a tu infraestructura y genere el mayor beneficio."
       },
       "capacitacion": {
         "title": "Capacitación y soporte",
-        "description": "Ofrecemos programas de capacitación para tu equipo, asegurando que todos los usuarios estén familiarizados con las nuevas tecnologías y puedan utilizarlas de manera efectiva. Además, brindamos soporte continuo para resolver cualquier duda o problema que pueda surgir."
+        "description": "Impartimos programas de formación para tu personal, procurando que todos dominen las nuevas herramientas y las aprovechen al máximo. Adicionalmente, damos soporte continuo para aclarar dudas o resolver inconvenientes."
       },
       "gestion": {
         "title": "Gestión del cambio",
-        "description": "Implementar nuevas tecnologías puede ser un desafío para cualquier organización. Te ayudamos a gestionar este cambio de manera efectiva, asegurando una transición suave y minimizando cualquier interrupción en tus operaciones."
+        "description": "La adopción de nuevas tecnologías puede ser compleja para cualquier organización. Te ayudamos a administrar este proceso con eficacia, facilitando una transición ordenada y reduciendo al mínimo las interrupciones en tus actividades."
       }
     },
     "cta1": "Solicitar diagnóstico",
@@ -251,17 +251,17 @@
     "breadcrumb": "Inicio/Planes TecVox",
     "subtitle": "El mejor precio",
     "title2": "Tenemos un plan para tus necesidades",
-    "description": "Ofrecemos soluciones personalizadas que se adaptan a tus requerimientos. Nuestro compromiso es brindarte alta calidad sin comprometer tu presupuesto.",
+    "description": "Brindamos alternativas a la medida que se ajustan a tus exigencias. Nuestra prioridad es ofrecerte calidad superior sin afectar tu presupuesto.",
     "iva": "+ IVA",
     "cta": "Contrata ahora",
     "personalizado": {
       "title": "Plan Personalizado",
-      "description": "Sabemos que cada empresa tiene necesidades únicas, por eso ofrecemos un servicio personalizado, diseñado especialmente para tu infraestructura, volumen de trabajo y objetivos tecnológicos.",
-      "subdescription": "Podemos adaptar un paquete exclusivo con el nombre que tú elijas, o bajo nuestra propuesta de \"Plan Personalizado\", integrando solo lo que realmente necesitas.",
+      "description": "Entendemos que cada organización posee requerimientos particulares, por ello diseñamos un servicio a la medida, pensado para tu infraestructura, carga operativa y metas tecnológicas.",
+      "subdescription": "Podemos crear un paquete exclusivo con la denominación que prefieras, o conforme a nuestro \"Plan Personalizado\", incluyendo únicamente lo que verdaderamente requieres.",
       "hasQuote": "¿Ya tienes una cotización?",
-      "hasQuoteDescription": "Puedes proceder con el pago seguro en línea para iniciar de inmediato.",
+      "hasQuoteDescription": "Puedes efectuar el pago seguro en línea para comenzar de forma inmediata.",
       "noQuote": "¿Aún no tienes cotización?",
-      "noQuoteDescription": "Contáctanos para agendar una asesoría rápida sin costo; evaluamos tu caso y enviamos propuesta en menos de 24 horas.",
+      "noQuoteDescription": "Contáctanos para programar una consultoría breve sin costo; analizamos tu situación y remitimos una propuesta en menos de 24 horas.",
       "payment": "Pago",
       "contact": "Contacto"
     },
