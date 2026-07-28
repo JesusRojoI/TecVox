@@ -1,0 +1,466 @@
+{
+  "header": {
+    "email": "atencion@tecvox.com.mx",
+    "address": "Gral. Juan Cano 87 #100, San Miguel Chapultepec II Secc, CDMX, 11850",
+    "phone": "55 5273 1980",
+    "brand": "TecVox",
+    "nav": {
+      "dashboard": "Dashboard",
+      "equipo": "Equipo TecVox",
+      "soluciones": "Soluciones Digitales",
+      "planes": "Planes TecVox",
+      "conexion": "TecVox Conexión"
+    },
+    "language": "EN"
+  },
+  "footer": {
+    "description": "Nos especializamos en el mantenimiento de equipos de cómputo, para asegurar que tu infraestructura tecnológica esté siempre en condiciones óptimas.",
+    "contact": "Contacto",
+    "links": "Enlaces",
+    "dashboard": "Dashboard",
+    "equipo": "Equipo TecVox",
+    "soluciones": "Soluciones Digitales",
+    "planes": "Planes TecVox",
+    "rights": "© 2026 TecVox. Todos los derechos reservados.",
+    "privacy": "Aviso de privacidad",
+    "terms": "Términos y condiciones",
+    "refund": "Política de reembolso"
+  },
+  "home": {
+    "hero": {
+      "title": "Calidad en el servicio",
+      "subtitle": "Mantenimiento de Sistemas TI",
+      "cta": "Nuestros planes",
+      "call": "Llámanos",
+      "write": "Escríbenos"
+    },
+    "services": {
+      "title": "Lo que hacemos",
+      "subtitle": "Nuestros servicios",
+      "description": "Nos especializamos en el mantenimiento de equipos de cómputo, ofreciendo soluciones integrales para asegurar que tu infraestructura tecnológica siempre esté en óptimas condiciones.",
+      "cta": "Ver planes",
+      "card1": "Mantenimiento de sistemas TI",
+      "card2": "Mantenimiento de equipos de cómputo",
+      "card3": "Consultoría tecnológica"
+    },
+    "values": {
+      "title": "Compromiso con la excelencia",
+      "subtitle": "Nuestros valores",
+      "value1": {
+        "title": "Integridad y Transparencia",
+        "description": "Operamos con honestidad y claridad en todas nuestras interacciones, construyendo relaciones de confianza y credibilidad con clientes y socios."
+      },
+      "value2": {
+        "title": "Innovación Constante",
+        "description": "Fomentamos un ambiente de creatividad y mejora continua, buscando nuevas formas de optimizar y modernizar nuestras soluciones tecnológicas."
+      },
+      "value3": {
+        "title": "Orientación al Cliente",
+        "description": "Ponemos a nuestros clientes en el centro de todo, escuchando sus necesidades y adaptando nuestros servicios para ofrecer el máximo valor."
+      }
+    },
+    "commitment": {
+      "title": "Comprometidos con resultados excepcionales",
+      "subtitle": "Calidad en el servicio",
+      "description": "Nuestra empresa se distingue por un equipo de profesionales altamente capacitados y comprometidos, que combinan experiencia y pasión por la tecnología para ofrecer resultados excepcionales en cada proyecto.",
+      "cta": "Ver planes"
+    },
+    "cta": {
+      "title": "El mejor servicio de mantenimiento tecnológico para nuestros clientes",
+      "cta": "Sobre nosotros"
+    },
+    "offer": {
+      "title": "Nuestra oferta",
+      "subtitle": "Mantenimiento tecnológico de calidad.",
+      "description": "Nuestros servicios aseguran que tus sistemas operen de forma óptima y sin interrupciones. Incluye actualización de software, reparación de hardware, monitoreo continuo y prevención de fallas."
+    },
+    "contact": {
+      "title": "Déjanos tus comentarios",
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "success": "Mensaje enviado. Te contactaremos en breve."
+    }
+  },
+  "cart": {
+    "title": "Carrito",
+    "subtitle": "Revisa tu selección, aplica un cupón (si tienes) y finaliza tu compra.",
+    "products": "Productos",
+    "unitPrice": "Precio unitario",
+    "quantity": "Cantidad",
+    "total": "Total",
+    "remove": "Quitar",
+    "coupon": "Cupón",
+    "couponPlaceholder": "Ingresa tu cupón",
+    "apply": "Aplicar",
+    "invalidCoupon": "Cupón inválido",
+    "cartTotal": "Total del carrito",
+    "subtotal": "Subtotal",
+    "iva": "IVA",
+    "grandTotal": "Total",
+    "checkout": "Ir a checkout",
+    "empty": "Vaciar carrito",
+    "emptyMessage": "Tu carrito está vacío"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "billing": "Datos de facturación",
+    "name": "Nombre",
+    "lastname": "Apellidos",
+    "company": "Empresa",
+    "companyOptional": "Opcional",
+    "country": "País",
+    "address": "Calle y número",
+    "interior": "Interior / Depto (opcional)",
+    "city": "Ciudad",
+    "state": "Estado",
+    "postal": "C.P.",
+    "phone": "Teléfono",
+    "email": "Email",
+    "payment": "Datos de pago",
+    "paymentDescription": "Ingresa los datos de tu tarjeta para completar el pago de forma segura.",
+    "cardholder": "Titular",
+    "cardNumber": "Número de tarjeta",
+    "expiry": "Vencimiento",
+    "cvc": "CVC",
+    "summary": "Resumen",
+    "pay": "Pagar ahora",
+    "secure": "Proceso seguro por Etomin"
+  },
+  "success": {
+    "title": "¡Compra Exitosa!",
+    "subtitle": "Tu pago ha sido procesado correctamente",
+    "description": "Hemos enviado un correo de confirmación a tu email. Si tienes alguna duda, contáctanos en atencion@tecvox.com.mx",
+    "transaction": "Transacción",
+    "date": "Fecha",
+    "total": "Total",
+    "products": "Productos",
+    "cta": "Seguir Comprando"
+  },
+  "planPersonalizado": {
+    "title": "Plan personalizado",
+    "subtitle": "Plan Personalizado",
+    "description": "Solicita una cotización",
+    "info": "Alguno de nuestros expertos se pondrá en contacto contigo con el plan que necesitas. Contáctanos aquí.",
+    "help": "Si requieres ayuda, escríbenos a atencion@tecvox.com.mx.",
+    "folio": "Ingresa el folio proporcionado por tu ejecutivo de ventas",
+    "folioPlaceholder": "Ej. OM-12345",
+    "amount": "Ingresa el monto a pagar proporcionado por tu ejecutivo de ventas",
+    "totalFinal": "Total final",
+    "addToCart": "Añadir Al Carrito",
+    "error": "Ingresa un folio y un monto válidos."
+  },
+  "equipo": {
+    "title": "Equipo TecVox",
+    "breadcrumb": "Inicio/Equipo TecVox",
+    "hero": "En TecVox",
+    "heroDescription": "Nos haremos cargo del mantenimiento tecnológico con nuestros profesionales.",
+    "heroSub": "Contáctanos y mantendremos tus sistemas al día, asegurando su óptimo funcionamiento.",
+    "cta": "Contáctanos",
+    "solutions": "Soluciones Personalizadas y Avanzadas",
+    "solutionsTitle": "Para empresas de todos los tamaños",
+    "solutionsDescription": "Desde pequeñas empresas hasta grandes corporaciones, nuestro objetivo es brindar un servicio personalizado que se adapte a las necesidades específicas de cada cliente."
+  },
+  "soluciones": {
+    "title": "Soluciones Digitales",
+    "breadcrumb": "Inicio/Soluciones Digitales",
+    "subtitle": "Lo que ofrecemos",
+    "title2": "Nuestros Servicios"
+  },
+  "mantenimiento_sistemas": {
+    "title": "Mantenimiento de Sistemas TI",
+    "breadcrumb": "Inicio/Soluciones Digitales/Mantenimiento de Sistemas TI",
+    "accordion1": "Mantenimiento de Sistemas TI",
+    "accordion2": "Mantenimiento de equipos de cómputo",
+    "accordion3": "Consultoría tecnológica",
+    "content": {
+      "title": "Mantenimiento de Sistemas TI",
+      "soporte": {
+        "title": "Soporte técnico especializado",
+        "description": "Nuestro equipo de técnicos certificados está disponible para resolver cualquier problema técnico que puedas enfrentar, ya sea a través de asistencia remota o visitas en sitio. Nos aseguramos de que tus sistemas funcionen de manera óptima, minimizando el tiempo de inactividad y asegurando una operación continua."
+      },
+      "actualizaciones": {
+        "title": "Actualizaciones de software",
+        "description": "Mantener tus sistemas actualizados es crucial para la seguridad y el rendimiento. Nos encargamos de gestionar todas las actualizaciones de software, desde sistemas operativos hasta aplicaciones específicas, garantizando que todos los componentes funcionen en armonía y con las últimas mejoras de seguridad."
+      },
+      "redes": {
+        "title": "Optimización de redes",
+        "description": "Una red eficiente es la columna vertebral de cualquier operación tecnológica. Ofrecemos servicios de análisis y optimización de redes para asegurar que tus datos se transmitan de manera rápida y segura. Esto incluye la configuración de routers, switches, firewalls y la implementación de políticas de red seguras."
+      },
+      "monitoreo": {
+        "title": "Monitoreo proactivo",
+        "description": "Implementamos soluciones de monitoreo continuo que detectan y alertan sobre cualquier anomalía en tus sistemas. Esto nos permite anticiparnos a posibles problemas y tomar medidas preventivas antes de que afecte tu operación."
+      }
+    },
+    "cta1": "Ver planes",
+    "cta2": "Contáctanos"
+  },
+  "mantenimiento_equipos": {
+    "title": "Mantenimiento de equipos de cómputo",
+    "breadcrumb": "Inicio/Soluciones Digitales/Mantenimiento de equipos de cómputo",
+    "content": {
+      "title": "Mantenimiento de equipos de cómputo",
+      "diagnostico": {
+        "title": "Diagnóstico y reparación",
+        "description": "Realizamos diagnósticos completos para identificar cualquier problema en tus equipos de cómputo. (SOFTWARE)"
+      },
+      "preventivo": {
+        "title": "Mantenimiento preventivo",
+        "description": "Para asegurar que tus equipos sigan siendo competitivos y eficientes, ofrecemos servicios de actualización de software, como limpieza, diagnóstico, actualizaciones y mantenimiento preventivo."
+      },
+      "inventario": {
+        "title": "Gestión de inventario",
+        "description": "Ayudamos a gestionar el inventario de tus equipos, llevando un registro detallado de cada dispositivo y su estado. Esto facilita la planificación de futuras compras y el mantenimiento programado."
+      }
+    },
+    "cta1": "Solicitar diagnóstico",
+    "cta2": "Ver otros servicios"
+  },
+  "consultoria": {
+    "title": "Consultoría tecnológica",
+    "breadcrumb": "Inicio/Soluciones Digitales/Consultoría tecnológica",
+    "content": {
+      "title": "Consultoría tecnológica",
+      "evaluacion": {
+        "title": "Evaluación y diagnóstico",
+        "description": "Realizamos una evaluación exhaustiva de tus sistemas actuales para identificar áreas de mejora y oportunidades para la implementación de nuevas tecnologías. Nuestro análisis incluye aspectos como la eficiencia operativa, la seguridad de la información y la escalabilidad de tus sistemas."
+      },
+      "planificacion": {
+        "title": "Planificación estratégica",
+        "description": "Desarrollamos un plan tecnológico alineado con los objetivos de tu negocio. Este plan incluye recomendaciones sobre la adquisición de hardware y software, la implementación de nuevas soluciones tecnológicas y la mejora de los procesos existentes."
+      },
+      "implementacion": {
+        "title": "Implementación de soluciones",
+        "description": "Nuestro equipo te acompaña en cada paso de la implementación de nuevas tecnologías. Desde la selección de proveedores hasta la configuración y puesta en marcha de sistemas, nos aseguramos de que cada solución se integre perfectamente con tu infraestructura existente y aporte el máximo valor a tu operación."
+      },
+      "capacitacion": {
+        "title": "Capacitación y soporte",
+        "description": "Ofrecemos programas de capacitación para tu equipo, asegurando que todos los usuarios estén familiarizados con las nuevas tecnologías y puedan utilizarlas de manera efectiva. Además, brindamos soporte continuo para resolver cualquier duda o problema que pueda surgir."
+      },
+      "gestion": {
+        "title": "Gestión del cambio",
+        "description": "Implementar nuevas tecnologías puede ser un desafío para cualquier organización. Te ayudamos a gestionar este cambio de manera efectiva, asegurando una transición suave y minimizando cualquier interrupción en tus operaciones."
+      }
+    },
+    "cta1": "Solicitar diagnóstico",
+    "cta2": "Ver otros servicios"
+  },
+  "planes": {
+    "title": "Planes TecVox",
+    "breadcrumb": "Inicio/Planes TecVox",
+    "subtitle": "El mejor precio",
+    "title2": "Tenemos un plan para tus necesidades",
+    "description": "Ofrecemos soluciones personalizadas que se adaptan a tus requerimientos. Nuestro compromiso es brindarte alta calidad sin comprometer tu presupuesto.",
+    "iva": "+ IVA",
+    "cta": "Contrata ahora",
+    "personalizado": {
+      "title": "Plan Personalizado",
+      "description": "Sabemos que cada empresa tiene necesidades únicas, por eso ofrecemos un servicio personalizado, diseñado especialmente para tu infraestructura, volumen de trabajo y objetivos tecnológicos.",
+      "subdescription": "Podemos adaptar un paquete exclusivo con el nombre que tú elijas, o bajo nuestra propuesta de \"Plan Personalizado\", integrando solo lo que realmente necesitas.",
+      "hasQuote": "¿Ya tienes una cotización?",
+      "hasQuoteDescription": "Puedes proceder con el pago seguro en línea para iniciar de inmediato.",
+      "noQuote": "¿Aún no tienes cotización?",
+      "noQuoteDescription": "Contáctanos para agendar una asesoría rápida sin costo; evaluamos tu caso y enviamos propuesta en menos de 24 horas.",
+      "payment": "Pago",
+      "contact": "Contacto"
+    },
+    "products": {
+      "minisafe": {
+        "name": "Plan MiniSafe",
+        "price": 150.00,
+        "features": [
+          "Actualización de software básica"
+        ]
+      },
+      "nanoprotect": {
+        "name": "Plan NanoProtect",
+        "price": 480.00,
+        "features": [
+          "Reparaciones menores (instalación de 1 programa)"
+        ]
+      },
+      "essentials": {
+        "name": "Plan Essentials",
+        "price": 1250.00,
+        "features": [
+          "Limpieza de software básica",
+          "Diagnóstico básico (software)"
+        ]
+      },
+      "guardian": {
+        "name": "Plan Guardián",
+        "price": 3376.00,
+        "features": [
+          "Limpieza de software básica",
+          "Diagnóstico básico (software)",
+          "Reparaciones menores (instalación de un programa)",
+          "Actualización de software básica"
+        ]
+      },
+      "optimussafe": {
+        "name": "Plan TecVoxSafe",
+        "price": 5625.00,
+        "features": [
+          "Limpieza de software básica",
+          "Diagnóstico básico (software)",
+          "Reparaciones menores (instalación de un programa)",
+          "Actualización de software básica",
+          "Mantenimiento preventivo básico",
+          "Consultoría tecnológica básica (evaluación, diagnóstico preliminar)"
+        ]
+      },
+      "inicial": {
+        "name": "Plan Inicial",
+        "price": 8420.00,
+        "features": [
+          "Limpieza de software básica",
+          "Diagnóstico básico (software)",
+          "Reparaciones menores (instalación de un programa)",
+          "Actualización de software básica",
+          "Mantenimiento preventivo básico",
+          "Consultoría tecnológica básica",
+          "Mantenimiento de sistemas IT",
+          "Soporte técnico especializado"
+        ]
+      },
+      "protege": {
+        "name": "Plan Protege",
+        "price": 12195.00,
+        "features": [
+          "Mantenimiento de Sistemas IT",
+          "Soporte técnico especializado",
+          "Actualizaciones de software",
+          "Mantenimiento de equipos de cómputo",
+          "Diagnóstico y reparación",
+          "Mantenimiento preventivo",
+          "Consultoría tecnológica",
+          "Evaluación y diagnóstico"
+        ]
+      },
+      "seguro": {
+        "name": "Plan Seguro",
+        "price": 16300.00,
+        "features": [
+          "Soporte técnico avanzado",
+          "Optimización de Redes (Solo una red)",
+          "Diagnóstico y reparación",
+          "Actualización de componentes",
+          "Planificación estratégica"
+        ]
+      },
+      "conecta": {
+        "name": "Plan Conecta",
+        "price": 22195.00,
+        "features": [
+          "Soporte técnico especializado",
+          "Monitoreo proactivo",
+          "Mantenimiento preventivo",
+          "Gestión de inventario",
+          "Implementación de soluciones",
+          "Capacitación y soporte"
+        ]
+      },
+      "optimiza": {
+        "name": "Plan Optimiza",
+        "price": 28320.00,
+        "features": [
+          "Soporte técnico completo",
+          "Optimización de Redes (dos redes)",
+          "Monitoreo proactivo",
+          "Diagnóstico y reparación",
+          "Actualización de componentes",
+          "Gestión de inventario",
+          "Evaluación y diagnóstico",
+          "Planificación estratégica",
+          "Capacitación y soporte"
+        ]
+      },
+      "corporativo": {
+        "name": "Plan Corporativo",
+        "price": 35150.00,
+        "features": [
+          "Soluciones a medida",
+          "Optimización de Redes (cinco redes)",
+          "Monitoreo proactivo",
+          "Diagnóstico y reparación",
+          "Mantenimiento preventivo",
+          "Actualización de componentes",
+          "Gestión de inventario",
+          "Planificación estratégica",
+          "Implementación de soluciones",
+          "Capacitación y soporte"
+        ]
+      },
+      "titanium": {
+        "name": "Plan Titanium",
+        "price": 40300.00,
+        "features": [
+          "Mantenimiento de sistemas TI (preventivo y correctivo)",
+          "Mantenimiento de equipos de cómputo (hasta 10 equipos)",
+          "Evaluación y diagnóstico",
+          "Consultoría tecnológica básica (5 horas)",
+          "Soporte técnico remoto e in situ (10 horas)",
+          "Reporte técnico"
+        ]
+      },
+      "platino": {
+        "name": "Plan Platino",
+        "price": 48125.00,
+        "features": [
+          "Capacitación al personal IT o usuarios finales (10 horas)",
+          "Implementación de soluciones medianas",
+          "Soporte proactivo con monitoreo",
+          "Planificación estratégica IT",
+          "Gestión de incidentes crítica (SLA de 6 horas)",
+          "Ideal para: Empresas con entre 25 y 30 usuarios"
+        ]
+      },
+      "zafiro": {
+        "name": "Plan Zafiro",
+        "price": 56320.00,
+        "features": [
+          "Gestión avanzada del cambio",
+          "Consultoría especializada (10 horas, nivel senior)",
+          "Implementación de nuevas tecnologías",
+          "Gestión y optimización de redes LAN/WAN",
+          "Diagnóstico completo de ciberseguridad",
+          "Ideal para: Firmas financieras, logísticas o corporativas"
+        ]
+      },
+      "diamante": {
+        "name": "Plan Diamante",
+        "price": 60240.00,
+        "features": [
+          "Integración de infraestructura híbrida",
+          "Soporte especializado en sistemas ERP/CRM",
+          "Implementación de soluciones personalizadas",
+          "Gestión documental electrónica",
+          "Auditoría de cumplimiento (TI + privacidad)",
+          "Ideal para: Corporativos interconectados"
+        ]
+      },
+      "obsidiana": {
+        "name": "Plan Obsidiana",
+        "price": 65860.00,
+        "features": [
+          "Consultor IT asignado (12 horas)",
+          "Dirección de tecnología tercerizada (vCIO/vCTO)",
+          "Implementación de políticas de seguridad",
+          "Desarrollo e integración de soluciones a la medida (3 módulos)",
+          "Capacitación y cultura digital (15 horas)",
+          "Ideal para: Empresas que quieren convertir su infraestructura TI en un activo competitivo"
+        ]
+      }
+    }
+  },
+  "conexion": {
+    "title": "TecVox Conexión",
+    "comingSoon": "Próximamente"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "retry": "Reintentar"
+  }
+}

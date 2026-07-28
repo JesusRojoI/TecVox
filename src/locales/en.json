@@ -1,0 +1,466 @@
+{
+  "header": {
+    "email": "atencion@tecvox.com.mx",
+    "address": "Gral. Juan Cano 87 #100, San Miguel Chapultepec II Secc, CDMX, 11850",
+    "phone": "55 5273 1980",
+    "brand": "TecVox",
+    "nav": {
+      "dashboard": "Dashboard",
+      "equipo": "TecVox Team",
+      "soluciones": "Digital Solutions",
+      "planes": "TecVox Plans",
+      "conexion": "TecVox Connection"
+    },
+    "language": "ES"
+  },
+  "footer": {
+    "description": "We specialize in computer equipment maintenance to ensure your technological infrastructure is always in optimal condition.",
+    "contact": "Contact",
+    "links": "Links",
+    "dashboard": "Dashboard",
+    "equipo": "TecVox Team",
+    "soluciones": "Digital Solutions",
+    "planes": "TecVox Plans",
+    "rights": "© 2026 TecVox. All rights reserved.",
+    "privacy": "Privacy Notice",
+    "terms": "Terms and Conditions",
+    "refund": "Refund Policy"
+  },
+  "home": {
+    "hero": {
+      "title": "Quality Service",
+      "subtitle": "IT Systems Maintenance",
+      "cta": "Our Plans",
+      "call": "Call Us",
+      "write": "Write Us"
+    },
+    "services": {
+      "title": "What We Do",
+      "subtitle": "Our Services",
+      "description": "We specialize in computer equipment maintenance, offering comprehensive solutions to ensure your technological infrastructure is always in optimal conditions.",
+      "cta": "View Plans",
+      "card1": "IT Systems Maintenance",
+      "card2": "Computer Equipment Maintenance",
+      "card3": "Technology Consulting"
+    },
+    "values": {
+      "title": "Commitment to Excellence",
+      "subtitle": "Our Values",
+      "value1": {
+        "title": "Integrity and Transparency",
+        "description": "We operate with honesty and clarity in all our interactions, building relationships of trust and credibility with clients and partners."
+      },
+      "value2": {
+        "title": "Constant Innovation",
+        "description": "We foster an environment of creativity and continuous improvement, seeking new ways to optimize and modernize our technological solutions."
+      },
+      "value3": {
+        "title": "Customer Orientation",
+        "description": "We put our customers at the center of everything, listening to their needs and adapting our services to deliver maximum value."
+      }
+    },
+    "commitment": {
+      "title": "Committed to Exceptional Results",
+      "subtitle": "Quality Service",
+      "description": "Our company is distinguished by a team of highly trained and committed professionals, who combine experience and passion for technology to deliver exceptional results in every project.",
+      "cta": "View Plans"
+    },
+    "cta": {
+      "title": "The best technological maintenance service for our clients",
+      "cta": "About Us"
+    },
+    "offer": {
+      "title": "Our Offer",
+      "subtitle": "Quality Technological Maintenance.",
+      "description": "Our services ensure your systems operate optimally and without interruptions. Includes software updates, hardware repair, continuous monitoring, and failure prevention."
+    },
+    "contact": {
+      "title": "Leave Your Comments",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Message sent. We will contact you shortly."
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "subtitle": "Review your selection, apply a coupon (if you have one) and complete your purchase.",
+    "products": "Products",
+    "unitPrice": "Unit Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "remove": "Remove",
+    "coupon": "Coupon",
+    "couponPlaceholder": "Enter your coupon",
+    "apply": "Apply",
+    "invalidCoupon": "Invalid coupon",
+    "cartTotal": "Cart Total",
+    "subtotal": "Subtotal",
+    "iva": "VAT",
+    "grandTotal": "Total",
+    "checkout": "Go to Checkout",
+    "empty": "Empty Cart",
+    "emptyMessage": "Your cart is empty"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "billing": "Billing Information",
+    "name": "First Name",
+    "lastname": "Last Name",
+    "company": "Company",
+    "companyOptional": "Optional",
+    "country": "Country",
+    "address": "Street and Number",
+    "interior": "Interior / Depto (optional)",
+    "city": "City",
+    "state": "State",
+    "postal": "ZIP Code",
+    "phone": "Phone",
+    "email": "Email",
+    "payment": "Payment Information",
+    "paymentDescription": "Enter your card details to complete the payment securely.",
+    "cardholder": "Cardholder",
+    "cardNumber": "Card Number",
+    "expiry": "Expiration",
+    "cvc": "CVC",
+    "summary": "Summary",
+    "pay": "Pay Now",
+    "secure": "Secure process by Etomin"
+  },
+  "success": {
+    "title": "Purchase Successful!",
+    "subtitle": "Your payment has been processed successfully",
+    "description": "We have sent a confirmation email to your address. If you have any questions, contact us at atencion@tecvox.com.mx",
+    "transaction": "Transaction",
+    "date": "Date",
+    "total": "Total",
+    "products": "Products",
+    "cta": "Continue Shopping"
+  },
+  "planPersonalizado": {
+    "title": "Custom Plan",
+    "subtitle": "Custom Plan",
+    "description": "Request a Quote",
+    "info": "One of our experts will contact you with the plan you need. Contact us here.",
+    "help": "If you need help, write to us at atencion@tecvox.com.mx.",
+    "folio": "Enter the folio provided by your sales executive",
+    "folioPlaceholder": "Ex. OM-12345",
+    "amount": "Enter the amount to pay provided by your sales executive",
+    "totalFinal": "Final Total",
+    "addToCart": "Add to Cart",
+    "error": "Enter a valid folio and amount."
+  },
+  "equipo": {
+    "title": "TecVox Team",
+    "breadcrumb": "Home/TecVox Team",
+    "hero": "At TecVox",
+    "heroDescription": "We will take care of technological maintenance with our professionals.",
+    "heroSub": "Contact us and we will keep your systems up to date, ensuring their optimal functioning.",
+    "cta": "Contact Us",
+    "solutions": "Customized and Advanced Solutions",
+    "solutionsTitle": "For Companies of All Sizes",
+    "solutionsDescription": "From small businesses to large corporations, our goal is to provide a personalized service that adapts to the specific needs of each client."
+  },
+  "soluciones": {
+    "title": "Digital Solutions",
+    "breadcrumb": "Home/Digital Solutions",
+    "subtitle": "What We Offer",
+    "title2": "Our Services"
+  },
+  "mantenimiento_sistemas": {
+    "title": "IT Systems Maintenance",
+    "breadcrumb": "Home/Digital Solutions/IT Systems Maintenance",
+    "accordion1": "IT Systems Maintenance",
+    "accordion2": "Computer Equipment Maintenance",
+    "accordion3": "Technology Consulting",
+    "content": {
+      "title": "IT Systems Maintenance",
+      "soporte": {
+        "title": "Specialized Technical Support",
+        "description": "Our team of certified technicians is available to solve any technical problem you may face, whether through remote assistance or on-site visits. We ensure your systems function optimally, minimizing downtime and ensuring continuous operation."
+      },
+      "actualizaciones": {
+        "title": "Software Updates",
+        "description": "Keeping your systems updated is crucial for security and performance. We manage all software updates, from operating systems to specific applications, ensuring all components work in harmony and with the latest security enhancements."
+      },
+      "redes": {
+        "title": "Network Optimization",
+        "description": "An efficient network is the backbone of any technological operation. We offer network analysis and optimization services to ensure your data is transmitted quickly and securely. This includes router, switch, firewall configuration and the implementation of secure network policies."
+      },
+      "monitoreo": {
+        "title": "Proactive Monitoring",
+        "description": "We implement continuous monitoring solutions that detect and alert on any anomalies in your systems. This allows us to anticipate potential problems and take preventive measures before they affect your operation."
+      }
+    },
+    "cta1": "View Plans",
+    "cta2": "Contact Us"
+  },
+  "mantenimiento_equipos": {
+    "title": "Computer Equipment Maintenance",
+    "breadcrumb": "Home/Digital Solutions/Computer Equipment Maintenance",
+    "content": {
+      "title": "Computer Equipment Maintenance",
+      "diagnostico": {
+        "title": "Diagnosis and Repair",
+        "description": "We perform complete diagnostics to identify any problems in your computer equipment. (SOFTWARE)"
+      },
+      "preventivo": {
+        "title": "Preventive Maintenance",
+        "description": "To ensure your equipment remains competitive and efficient, we offer software update services, such as cleaning, diagnosis, updates, and preventive maintenance."
+      },
+      "inventario": {
+        "title": "Inventory Management",
+        "description": "We help manage your equipment inventory, keeping a detailed record of each device and its status. This facilitates planning for future purchases and scheduled maintenance."
+      }
+    },
+    "cta1": "Request Diagnosis",
+    "cta2": "View Other Services"
+  },
+  "consultoria": {
+    "title": "Technology Consulting",
+    "breadcrumb": "Home/Digital Solutions/Technology Consulting",
+    "content": {
+      "title": "Technology Consulting",
+      "evaluacion": {
+        "title": "Evaluation and Diagnosis",
+        "description": "We perform a comprehensive evaluation of your current systems to identify areas for improvement and opportunities for implementing new technologies. Our analysis includes aspects such as operational efficiency, information security, and system scalability."
+      },
+      "planificacion": {
+        "title": "Strategic Planning",
+        "description": "We develop a technology plan aligned with your business objectives. This plan includes recommendations on hardware and software acquisition, implementation of new technological solutions, and improvement of existing processes."
+      },
+      "implementacion": {
+        "title": "Solution Implementation",
+        "description": "Our team accompanies you at every step of implementing new technologies. From supplier selection to system configuration and startup, we ensure each solution integrates perfectly with your existing infrastructure and brings maximum value to your operation."
+      },
+      "capacitacion": {
+        "title": "Training and Support",
+        "description": "We offer training programs for your team, ensuring all users are familiar with new technologies and can use them effectively. Additionally, we provide ongoing support to resolve any questions or problems that may arise."
+      },
+      "gestion": {
+        "title": "Change Management",
+        "description": "Implementing new technologies can be a challenge for any organization. We help you manage this change effectively, ensuring a smooth transition and minimizing any disruption to your operations."
+      }
+    },
+    "cta1": "Request Diagnosis",
+    "cta2": "View Other Services"
+  },
+  "planes": {
+    "title": "TecVox Plans",
+    "breadcrumb": "Home/TecVox Plans",
+    "subtitle": "The Best Price",
+    "title2": "We Have a Plan for Your Needs",
+    "description": "We offer customized solutions that adapt to your requirements. Our commitment is to provide you with high quality without compromising your budget.",
+    "iva": "+ VAT",
+    "cta": "Hire Now",
+    "personalizado": {
+      "title": "Custom Plan",
+      "description": "We know each company has unique needs, that's why we offer a personalized service, designed especially for your infrastructure, workload, and technological goals.",
+      "subdescription": "We can adapt an exclusive package with the name you choose, or under our \"Custom Plan\" proposal, integrating only what you really need.",
+      "hasQuote": "Already have a quote?",
+      "hasQuoteDescription": "You can proceed with secure online payment to start immediately.",
+      "noQuote": "Don't have a quote yet?",
+      "noQuoteDescription": "Contact us to schedule a quick free consultation; we evaluate your case and send a proposal in less than 24 hours.",
+      "payment": "Payment",
+      "contact": "Contact"
+    },
+    "products": {
+      "minisafe": {
+        "name": "MiniSafe Plan",
+        "price": 150.00,
+        "features": [
+          "Basic software update"
+        ]
+      },
+      "nanoprotect": {
+        "name": "NanoProtect Plan",
+        "price": 480.00,
+        "features": [
+          "Minor repairs (installation of 1 program)"
+        ]
+      },
+      "essentials": {
+        "name": "Essentials Plan",
+        "price": 1250.00,
+        "features": [
+          "Basic software cleaning",
+          "Basic diagnosis (software)"
+        ]
+      },
+      "guardian": {
+        "name": "Guardian Plan",
+        "price": 3376.00,
+        "features": [
+          "Basic software cleaning",
+          "Basic diagnosis (software)",
+          "Minor repairs (installation of a program)",
+          "Basic software update"
+        ]
+      },
+      "optimussafe": {
+        "name": "TecVoxSafe Plan",
+        "price": 5625.00,
+        "features": [
+          "Basic software cleaning",
+          "Basic diagnosis (software)",
+          "Minor repairs (installation of a program)",
+          "Basic software update",
+          "Basic preventive maintenance",
+          "Basic technology consulting (evaluation, preliminary diagnosis)"
+        ]
+      },
+      "inicial": {
+        "name": "Initial Plan",
+        "price": 8420.00,
+        "features": [
+          "Basic software cleaning",
+          "Basic diagnosis (software)",
+          "Minor repairs (installation of a program)",
+          "Basic software update",
+          "Basic preventive maintenance",
+          "Basic technology consulting",
+          "IT systems maintenance",
+          "Specialized technical support"
+        ]
+      },
+      "protege": {
+        "name": "Protege Plan",
+        "price": 12195.00,
+        "features": [
+          "IT Systems Maintenance",
+          "Specialized technical support",
+          "Software updates",
+          "Computer equipment maintenance",
+          "Diagnosis and repair",
+          "Preventive maintenance",
+          "Technology consulting",
+          "Evaluation and diagnosis"
+        ]
+      },
+      "seguro": {
+        "name": "Secure Plan",
+        "price": 16300.00,
+        "features": [
+          "Advanced technical support",
+          "Network Optimization (One network only)",
+          "Diagnosis and repair",
+          "Component updates",
+          "Strategic planning"
+        ]
+      },
+      "conecta": {
+        "name": "Connect Plan",
+        "price": 22195.00,
+        "features": [
+          "Specialized technical support",
+          "Proactive monitoring",
+          "Preventive maintenance",
+          "Inventory management",
+          "Solution implementation",
+          "Training and support"
+        ]
+      },
+      "optimiza": {
+        "name": "Optimize Plan",
+        "price": 28320.00,
+        "features": [
+          "Complete technical support",
+          "Network Optimization (two networks)",
+          "Proactive monitoring",
+          "Diagnosis and repair",
+          "Component updates",
+          "Inventory management",
+          "Evaluation and diagnosis",
+          "Strategic planning",
+          "Training and support"
+        ]
+      },
+      "corporativo": {
+        "name": "Corporate Plan",
+        "price": 35150.00,
+        "features": [
+          "Customized solutions",
+          "Network Optimization (five networks)",
+          "Proactive monitoring",
+          "Diagnosis and repair",
+          "Preventive maintenance",
+          "Component updates",
+          "Inventory management",
+          "Strategic planning",
+          "Solution implementation",
+          "Training and support"
+        ]
+      },
+      "titanium": {
+        "name": "Titanium Plan",
+        "price": 40300.00,
+        "features": [
+          "IT systems maintenance (preventive and corrective)",
+          "Computer equipment maintenance (up to 10 devices)",
+          "Evaluation and diagnosis",
+          "Basic technology consulting (5 hours)",
+          "Remote and on-site technical support (10 hours)",
+          "Technical report"
+        ]
+      },
+      "platino": {
+        "name": "Platinum Plan",
+        "price": 48125.00,
+        "features": [
+          "IT staff or end-user training (10 hours)",
+          "Medium solution implementation",
+          "Proactive support with monitoring",
+          "Strategic IT planning",
+          "Critical incident management (6-hour SLA)",
+          "Ideal for: Companies with 25 to 30 users"
+        ]
+      },
+      "zafiro": {
+        "name": "Sapphire Plan",
+        "price": 56320.00,
+        "features": [
+          "Advanced change management",
+          "Specialized consulting (10 hours, senior level)",
+          "New technology implementation",
+          "LAN/WAN network management and optimization",
+          "Complete cybersecurity diagnosis",
+          "Ideal for: Financial, logistics or corporate firms"
+        ]
+      },
+      "diamante": {
+        "name": "Diamond Plan",
+        "price": 60240.00,
+        "features": [
+          "Hybrid infrastructure integration",
+          "Specialized ERP/CRM support",
+          "Custom solution implementation",
+          "Electronic document management",
+          "Compliance audit (IT + privacy)",
+          "Ideal for: Interconnected corporate environments"
+        ]
+      },
+      "obsidiana": {
+        "name": "Obsidian Plan",
+        "price": 65860.00,
+        "features": [
+          "Assigned IT consultant (12 hours)",
+          "Outsourced technology direction (vCIO/vCTO)",
+          "Security policy implementation",
+          "Custom solution development (3 modules)",
+          "Digital culture training (15 hours)",
+          "Ideal for: Companies wanting to turn their IT infrastructure into a competitive asset"
+        ]
+      }
+    }
+  },
+  "conexion": {
+    "title": "TecVox Connection",
+    "comingSoon": "Coming Soon"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error has occurred",
+    "retry": "Retry"
+  }
+}
