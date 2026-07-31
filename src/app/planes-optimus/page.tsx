@@ -115,9 +115,9 @@ export default function PlanesOptimusPage() {
 
                   {/* Precio */}
                   <div className="mb-6">
-                    <span className="text-4xl font-extrabold text-white">
-                      ${plan.price.toLocaleString('es-MX')}
-                    </span>
+                   <span className="text-4xl font-extrabold text-white">
+  MXN ${plan.price.toLocaleString('es-MX')}
+</span>
                     <span className="text-tecvox-gray ml-2">
                       {t.planes.iva}
                     </span>

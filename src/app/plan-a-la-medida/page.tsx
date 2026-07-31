@@ -187,17 +187,17 @@ export default function PlanALaMedidaPage() {
                 <h3 className="text-lg font-bold text-white mb-4">{t.planPersonalizado.totalFinal}</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between text-tecvox-gray">
-                    <span>{language === 'en' ? 'Subtotal' : 'Subtotal'}</span>
-                    <span>${amount.toFixed(2)}</span>
-                  </div>
-                  <div className="flex justify-between text-tecvox-gray">
-                    <span>{language === 'en' ? 'VAT' : 'IVA'}</span>
-                    <span>${iva.toFixed(2)}</span>
-                  </div>
-                  <div className="border-t border-tecvox-blue/20 pt-2 flex justify-between">
-                    <span className="text-white font-bold">{language === 'en' ? 'Total' : 'Total'}</span>
-                    <span className="text-tecvox-blue-accent font-bold text-xl">${total.toFixed(2)}</span>
-                  </div>
+  <span>{language === 'en' ? 'Subtotal' : 'Subtotal'}</span>
+  <span>MXN ${amount.toFixed(2)}</span>
+</div>
+<div className="flex justify-between text-tecvox-gray">
+  <span>{language === 'en' ? 'VAT' : 'IVA'}</span>
+  <span>MXN ${iva.toFixed(2)}</span>
+</div>
+<div className="border-t border-tecvox-blue/20 pt-2 flex justify-between">
+  <span className="text-white font-bold">{language === 'en' ? 'Total' : 'Total'}</span>
+  <span className="text-tecvox-blue-accent font-bold text-xl">MXN ${total.toFixed(2)}</span>
+</div>
                 </div>
               </div>
 

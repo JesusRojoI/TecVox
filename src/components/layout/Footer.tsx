@@ -116,17 +116,17 @@ export default function Footer() {
             {t.footer.rights}
           </p>
           <div className="flex items-center gap-4 text-sm text-tecvox-gray">
-            <Link href="#" className="hover:text-tecvox-blue-accent transition-colors">
-              {t.footer.privacy}
-            </Link>
-            <span className="text-tecvox-blue/30">|</span>
-            <Link href="#" className="hover:text-tecvox-blue-accent transition-colors">
-              {t.footer.terms}
-            </Link>
-            <span className="text-tecvox-blue/30">|</span>
-            <Link href="#" className="hover:text-tecvox-blue-accent transition-colors">
-              {t.footer.refund}
-            </Link>
+           <Link href="/aviso-de-privacidad" className="hover:text-tecvox-blue-accent transition-colors">
+  {t.footer.privacy}
+</Link>
+<span className="text-tecvox-blue/30">|</span>
+<Link href="/terminos-y-condiciones" className="hover:text-tecvox-blue-accent transition-colors">
+  {t.footer.terms}
+</Link>
+<span className="text-tecvox-blue/30">|</span>
+<Link href="/politica-de-reembolso" className="hover:text-tecvox-blue-accent transition-colors">
+  {t.footer.refund}
+</Link>
           </div>
         </div>
       </div>
