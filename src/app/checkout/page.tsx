@@ -441,7 +441,7 @@ export default function CheckoutPage() {
                         alt="Keycop Payments"
                         width={128}
                         height={48}
-                        className="object-contain w-full h-full"
+                        className="object-contain w-full h-full invert brightness-0"
                       />
                     </div>
                   </div>
