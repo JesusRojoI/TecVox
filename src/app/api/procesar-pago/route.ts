@@ -20,18 +20,18 @@ export async function POST(request: Request) {
       telefono 
     } = body;
 
-    // Leer configuración
-    const API_URL = process.env.ETOMIN_BASE_URL || 'https://api.etomin.com/v1';
-    const etominUser = process.env.ETOMIN_USER;
-    const etominPassword = process.env.ETOMIN_PASSWORD;
+    // --- CREDENCIALES KEYCOP ---
+    const API_URL = 'https://pagos.keycop.com.mx/api/v1';
+    const keycopUser = process.env.KEYCOP_USER;
+    const keycopPassword = process.env.KEYCOP_PASSWORD;
 
-    console.log('🔑 Credenciales:', { 
+    console.log('🔑 Credenciales Keycop:', { 
       url: API_URL,
-      user: etominUser ? '✅' : '❌', 
-      password: etominPassword ? '✅' : '❌' 
+      user: keycopUser ? '✅' : '❌', 
+      password: keycopPassword ? '✅' : '❌' 
     });
 
-    if (!etominUser || !etominPassword) {
+    if (!keycopUser || !keycopPassword) {
       console.error('❌ Variables de entorno no encontradas');
       return NextResponse.json(
         { success: false, message: 'Configuración de pago incompleta' }, 
@@ -48,19 +48,19 @@ export async function POST(request: Request) {
       );
     }
 
-    // 1. Autenticación
-    console.log('🔐 Autenticando con Etomin...');
+    // 1. SIGNIN EN KEYCOP
+    console.log('🔐 Autenticando con Keycop...');
     let authResponse;
     try {
       authResponse = await axios.post(`${API_URL}/signin`, {
-        email: etominUser,
-        password: etominPassword
+        email: keycopUser,
+        password: keycopPassword
       });
       console.log('✅ Auth exitoso');
     } catch (authError: any) {
       console.error('❌ Error de autenticación:', authError.response?.data || authError.message);
       return NextResponse.json(
-        { success: false, message: 'Error de autenticación con Etomin' }, 
+        { success: false, message: 'Error de autenticación con Keycop' }, 
         { status: 500 }
       );
     }
@@ -74,7 +74,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // 2. Tokenización de tarjeta
+    // 2. TOKENIZACIÓN DE TARJETA KEYCOP
     const [month, year] = fechaTarjeta.split('/');
     console.log('💳 Tokenizando tarjeta...');
     
@@ -107,13 +107,13 @@ export async function POST(request: Request) {
       );
     }
 
-    // 3. Procesar venta
+    // 3. PROCESAR VENTA KEYCOP
     const orderId = 'TXN-' + Date.now();
     console.log('💰 Procesando venta...');
     
     const saleResponse = await axios.post(`${API_URL}/sale`, {
       amount: amount,
-      currency: "484",
+      currency: "484", // Obligatorio MXN
       reference: orderId,
       customerInformation: {
         firstName: (nombre || 'Cliente').trim(),
@@ -140,8 +140,8 @@ export async function POST(request: Request) {
 
     console.log('✅ Respuesta de venta:', saleResponse.data);
 
-    // 4. Verificar respuesta
-    if (saleResponse.data.status === "APPROVED") {
+    // 4. VERIFICAR RESPUESTA
+    if (saleResponse.data.status === "APPROVED" || saleResponse.data.status === "PENDING") {
       return NextResponse.json({ 
         success: true, 
         transactionId: saleResponse.data.orderId || saleResponse.data.reference || orderId, 
@@ -154,7 +154,7 @@ export async function POST(request: Request) {
         { 
           success: false, 
           status: saleResponse.data.status, 
-          message: saleResponse.data.message || 'Pago rechazado' 
+          message: saleResponse.data.message || saleResponse.data.responseCode || 'Pago rechazado por el banco' 
         }, 
         { status: 400 }
       );

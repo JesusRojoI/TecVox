@@ -437,8 +437,8 @@ export default function CheckoutPage() {
                     </div>
                     <div className="relative w-32 h-12 mx-auto">
                       <Image
-                        src="/etomin_logo.jpeg"
-                        alt="Etomin Payments"
+                        src="/logo-keycop-2.png"
+                        alt="Keycop Payments"
                         width={128}
                         height={48}
                         className="object-contain w-full h-full"
