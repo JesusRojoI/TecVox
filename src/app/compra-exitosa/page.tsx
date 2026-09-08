@@ -5,13 +5,13 @@ import Link from 'next/link'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { useSearchParams } from 'next/navigation'
 import { FaCheckCircle, FaArrowRight, FaShoppingBag, FaReceipt } from 'react-icons/fa'
-import { HiDownload } from 'react-icons/hi'
 
 export default function CompraExitosaPage() {
   const { t, language } = useLanguage()
   const searchParams = useSearchParams()
   const transactionId = searchParams.get('transactionId') || 'N/A'
-  const total = searchParams.get('total') || '0'
+  const rawTotal = searchParams.get('total') || '0'
+  const urlCurrency = searchParams.get('currency') || 'MXN'
 
   const [date, setDate] = useState('')
 
@@ -25,6 +25,12 @@ export default function CompraExitosaPage() {
       minute: '2-digit',
     }))
   }, [language])
+
+  const displayTotal = new Intl.NumberFormat(urlCurrency === 'USD' ? 'en-US' : 'es-MX', {
+    style: 'currency',
+    currency: urlCurrency,
+    minimumFractionDigits: 2
+  }).format(parseFloat(rawTotal))
 
   return (
     <section className="min-h-screen pt-32 pb-16 bg-tecvox-black relative overflow-hidden">
@@ -66,12 +72,13 @@ export default function CompraExitosaPage() {
               <div className="border-t border-tecvox-blue/20 pt-3 flex justify-between">
                 <span className="text-white font-bold">{t.success.total}</span>
                 <span className="text-tecvox-blue-accent font-bold text-xl">
-                  ${parseFloat(total).toLocaleString('es-MX', { minimumFractionDigits: 2 })}
+                  {/* Renderizamos el total exacto que se cobró */}
+                  {displayTotal} {urlCurrency}
                 </span>
               </div>
             </div>
           </div>
-
+          
           {/* Botones */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/" className="btn-primary inline-flex items-center justify-center gap-2">

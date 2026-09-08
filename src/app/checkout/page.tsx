@@ -7,6 +7,7 @@ import { useCart, getTranslatedProductName } from '@/contexts/CartContext'
 import { useRouter } from 'next/navigation'
 import { FaLock, FaCreditCard } from 'react-icons/fa'
 import toast from 'react-hot-toast'
+import { useCurrency } from '@/contexts/CurrencyContext'
 
 interface FormData {
   nombre: string
@@ -29,6 +30,7 @@ interface FormData {
 export default function CheckoutPage() {
   const { t, language } = useLanguage()
   const { items, subtotal, iva, total, clearCart } = useCart()
+  const {currency, exchangeRate, formatPrice, convertPrice, isLoading} = useCurrency()
   const router = useRouter()
 
   const [formData, setFormData] = useState<FormData>({
@@ -51,10 +53,6 @@ export default function CheckoutPage() {
 
   const [errors, setErrors] = useState<Record<string, string>>({})
   const [loading, setLoading] = useState(false)
-
-  const formatPrice = (price: number) => {
-    return `$${price.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-  }
 
   const formatCardNumber = (value: string) => {
     const numbers = value.replace(/\D/g, '').slice(0, 16)
@@ -118,15 +116,17 @@ export default function CheckoutPage() {
 
     setLoading(true)
     try {
+      const amountToCharge = convertPrice(total).toFixed(2)
       const response = await fetch('/api/procesar-pago', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           nombreTarjeta: formData.nombreTarjeta,
-          numeroTarjeta: formData.numeroTarjeta,
+          numeroTarjeta: formData.numeroTarjeta.replace(/\s/g, ''),
           fechaTarjeta: formData.fechaTarjeta,
           cvv: formData.cvv,
-          monto: total.toFixed(2),
+          monto: amountToCharge,
+          currency: currency,
           nombre: formData.nombre,
           apellidos: formData.apellidos,
           email: formData.email,
@@ -147,6 +147,8 @@ export default function CheckoutPage() {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             to: formData.email,
+            currency: currency,
+            exchangeRate: exchangeRate,
             orderData: {
               nombre: `${formData.nombre} ${formData.apellidos}`,
               productos: items.map(item => ({
@@ -167,7 +169,7 @@ export default function CheckoutPage() {
         })
 
         clearCart()
-        router.push(`/compra-exitosa?transactionId=${data.transactionId}&total=${total}`)
+        router.push(`/compra-exitosa?transactionId=${data.transactionId}&total=${amountToCharge}&currency=${currency}`)
       } else {
         toast.error(data.message || (language === 'en' ? 'Payment failed' : 'Pago rechazado'))
       }
@@ -392,9 +394,9 @@ export default function CheckoutPage() {
                         <div key={item.cartItemId} className="text-sm">
                           <p className="text-white font-medium">{translatedName}</p>
                           <p className="text-tecvox-gray">
-                            {item.quantity} × {formatPrice(item.price)}
+                            {item.quantity} × {isLoading ? '...' : formatPrice(item.price)}
                           </p>
-                          <p className="text-tecvox-blue-accent font-semibold">{formatPrice(item.price * item.quantity)}</p>
+                          <p className="text-tecvox-blue-accent font-semibold">{isLoading ? '...' : formatPrice(item.price * item.quantity)}</p>
                         </div>
                       )
                     })}
@@ -403,15 +405,15 @@ export default function CheckoutPage() {
                   <div className="border-t border-tecvox-blue/20 pt-4 space-y-2">
                     <div className="flex justify-between text-tecvox-gray text-sm">
                       <span>{t.cart.subtotal}</span>
-                      <span>{formatPrice(subtotal)}</span>
+                      <span>{isLoading ? '...' : formatPrice(subtotal)}</span>
                     </div>
                     <div className="flex justify-between text-tecvox-gray text-sm">
                       <span>{language === 'en' ? 'VAT' : 'IVA'}</span>
-                      <span>{formatPrice(iva)}</span>
+                      <span>{isLoading ? '...' : formatPrice(iva)}</span>
                     </div>
                     <div className="border-t border-tecvox-blue/20 pt-2 flex justify-between">
                       <span className="text-white font-bold">{language === 'en' ? 'Total' : 'Total'}</span>
-                      <span className="text-tecvox-blue-accent font-bold text-lg">{formatPrice(total)}</span>
+                      <span className="text-tecvox-blue-accent font-bold text-lg">{isLoading ? '...' : formatPrice(total)}</span>
                     </div>
                   </div>
 

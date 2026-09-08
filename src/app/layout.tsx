@@ -5,6 +5,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import { Toaster } from 'react-hot-toast'
 import './globals.css'
+import { CurrencyProvider } from '@/contexts/CurrencyContext'
 
 export const metadata: Metadata = {
   title: 'TecVox - Mantenimiento de Sistemas TI',
@@ -23,23 +24,25 @@ export default function RootLayout({
     <html lang="es">
       <body className="min-h-screen flex flex-col">
         <LanguageProvider>
-          <CartProvider>
-            <Header />
-            <main className="flex-grow">
-              {children}
-            </main>
-            <Footer />
-            <Toaster
-              position="top-right"
-              toastOptions={{
-                style: {
-                  background: '#121212',
-                  color: '#f8fafc',
-                  border: '1px solid rgba(59, 130, 246, 0.3)',
-                },
-              }}
-            />
-          </CartProvider>
+          <CurrencyProvider>
+            <CartProvider>
+              <Header />
+              <main className="flex-grow">
+                {children}
+              </main>
+              <Footer />
+              <Toaster
+                position="top-right"
+                toastOptions={{
+                  style: {
+                    background: '#121212',
+                    color: '#f8fafc',
+                    border: '1px solid rgba(59, 130, 246, 0.3)',
+                  },
+                }}
+              />
+            </CartProvider>
+          </CurrencyProvider>
         </LanguageProvider>
       </body>
     </html>

@@ -6,20 +6,18 @@ import { useLanguage } from '@/contexts/LanguageContext'
 import { useCart, getTranslatedProductName, getTranslatedProductFeatures } from '@/contexts/CartContext'
 import { FaTrash, FaMinus, FaPlus, FaArrowRight, FaShoppingCart, FaTag } from 'react-icons/fa'
 import toast from 'react-hot-toast'
+import { useCurrency } from '@/contexts/CurrencyContext'
 
 export default function CarritoPage() {
   const { t, language } = useLanguage()
   const { items, removeItem, updateQuantity, clearCart, subtotal, iva, total, itemCount } = useCart()
+  const { currency, toggleCurrency, formatPrice,isLoading } = useCurrency()
   const [couponCode, setCouponCode] = useState('')
 
   const handleApplyCoupon = () => {
     if (couponCode.trim()) {
       toast.error(t.cart.invalidCoupon)
     }
-  }
-
-  const formatPrice = (price: number) => {
-    return `$${price.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
   }
 
   if (items.length === 0) {
@@ -107,7 +105,7 @@ export default function CarritoPage() {
                         
                         <div className="text-right">
                           <p className="text-tecvox-gray text-xs">{t.cart.total}</p>
-                          <p className="text-white font-bold text-lg">{formatPrice(item.price * item.quantity)}</p>
+                          <p className="text-white font-bold text-lg">{isLoading ? '...' : formatPrice(item.price * item.quantity)}</p>
                         </div>
 
                         <button
@@ -150,21 +148,47 @@ export default function CarritoPage() {
                   </div>
                 </div>
 
-                {/* Totales */}
+                {/* Totales y Selector de Moneda */}
                 <div className="border-t border-tecvox-blue/20 pt-6">
-                  <h3 className="text-white font-bold mb-4">{t.cart.cartTotal}</h3>
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-white font-bold">{t.cart.cartTotal}</h3>
+                    {/* Switch de Moneda */}
+                    <div className="flex items-center bg-tecvox-dark p-1 rounded-lg border border-tecvox-blue/20">
+                      <button
+                        type="button"
+                        onClick={() => currency !== 'MXN' && toggleCurrency()}
+                        className={`px-3 py-1 text-xs font-bold rounded-md transition-all ${
+                          currency === 'MXN' ? 'bg-tecvox-blue text-white' : 'text-tecvox-gray hover:text-white'
+                        }`}
+                      >
+                        MXN
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => currency !== 'USD' && toggleCurrency()}
+                        className={`px-3 py-1 text-xs font-bold rounded-md transition-all ${
+                          currency === 'USD' ? 'bg-tecvox-blue text-white' : 'text-tecvox-gray hover:text-white'
+                        }`}
+                      >
+                        USD
+                      </button>
+                    </div>
+                  </div>
+                  
                   <div className="space-y-3">
                     <div className="flex justify-between text-tecvox-gray">
                       <span>{t.cart.subtotal}</span>
-                      <span>{formatPrice(subtotal)}</span>
+                      <span>{isLoading ? '...' : formatPrice(subtotal)}</span>
                     </div>
                     <div className="flex justify-between text-tecvox-gray">
                       <span>{t.cart.iva}</span>
-                      <span>{formatPrice(iva)}</span>
+                      <span>{isLoading ? '...' : formatPrice(iva)}</span>
                     </div>
                     <div className="border-t border-tecvox-blue/20 pt-3 flex justify-between">
                       <span className="text-white font-bold">{t.cart.grandTotal}</span>
-                      <span className="text-tecvox-blue-accent font-bold text-xl">{formatPrice(total)}</span>
+                      <span className="text-tecvox-blue-accent font-bold text-xl">
+                        {isLoading ? '...' : formatPrice(total)}
+                      </span>
                     </div>
                   </div>
                 </div>

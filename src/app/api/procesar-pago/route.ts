@@ -10,6 +10,7 @@ export async function POST(request: Request) {
       fechaTarjeta, 
       cvv, 
       monto, 
+      currency ='MXN',
       nombre, 
       apellidos, 
       email, 
@@ -19,6 +20,8 @@ export async function POST(request: Request) {
       codigoPostal, 
       telefono 
     } = body;
+
+    const currencyCode = currency === 'USD' ? '840' : '484';
 
     // --- CREDENCIALES KEYCOP ---
     const API_URL = 'https://pagos.keycop.com.mx/api/v1';
@@ -113,7 +116,7 @@ export async function POST(request: Request) {
     
     const saleResponse = await axios.post(`${API_URL}/sale`, {
       amount: amount,
-      currency: "484", // Obligatorio MXN
+      currency: currencyCode, // Obligatorio
       reference: orderId,
       customerInformation: {
         firstName: (nombre || 'Cliente').trim(),

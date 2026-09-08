@@ -7,12 +7,17 @@ import { useCart } from '@/contexts/CartContext'
 import { useRouter } from 'next/navigation'
 import { FaCartPlus, FaMinus, FaPlus, FaEnvelope } from 'react-icons/fa'
 import toast from 'react-hot-toast'
+import { useCurrency } from '@/contexts/CurrencyContext'
 
 export default function PlanALaMedidaPage() {
-  const { t, language } = useLanguage()
+  const { t, language } = useLanguage()  
+  // 1. Solo traemos addItem del carrito
   const { addItem } = useCart()
   const router = useRouter()
-
+  
+  // 2. Solo extraemos formatPrice e isLoading (no necesitamos currency ni toggleCurrency aquí)
+  const { formatPrice, isLoading } = useCurrency()
+  
   const [folio, setFolio] = useState('')
   const [amount, setAmount] = useState(0)
   const [amountInput, setAmountInput] = useState('0')
@@ -77,6 +82,7 @@ export default function PlanALaMedidaPage() {
       return
     }
 
+    // Nota: El amount que se guarda en el carrito SIEMPRE es el valor base en MXN
     addItem({
       name: `${t.planPersonalizado.title} - ${folio.trim()}`,
       price: amount,
@@ -187,17 +193,20 @@ export default function PlanALaMedidaPage() {
                 <h3 className="text-lg font-bold text-white mb-4">{t.planPersonalizado.totalFinal}</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between text-tecvox-gray">
-  <span>{language === 'en' ? 'Subtotal' : 'Subtotal'}</span>
-  <span>MXN ${amount.toFixed(2)}</span>
-</div>
-<div className="flex justify-between text-tecvox-gray">
-  <span>{language === 'en' ? 'VAT' : 'IVA'}</span>
-  <span>MXN ${iva.toFixed(2)}</span>
-</div>
-<div className="border-t border-tecvox-blue/20 pt-2 flex justify-between">
-  <span className="text-white font-bold">{language === 'en' ? 'Total' : 'Total'}</span>
-  <span className="text-tecvox-blue-accent font-bold text-xl">MXN ${total.toFixed(2)}</span>
-</div>
+                    <span>{language === 'en' ? 'Subtotal' : 'Subtotal'}</span>
+                    {/* 3. Reemplazamos subtotal por amount y quitamos el {currency} duplicado */}
+                    <span>{isLoading ? '...' : formatPrice(amount)}</span>
+                  </div>
+                  <div className="flex justify-between text-tecvox-gray">
+                    <span>{language === 'en' ? 'VAT' : 'IVA'}</span>
+                    <span>{isLoading ? '...' : formatPrice(iva)}</span>
+                  </div>
+                  <div className="border-t border-tecvox-blue/20 pt-2 flex justify-between">
+                    <span className="text-white font-bold">{language === 'en' ? 'Total' : 'Total'}</span>
+                    <span className="text-tecvox-blue-accent font-bold text-xl">
+                      {isLoading ? '...' : formatPrice(total)}
+                    </span>
+                  </div>
                 </div>
               </div>
 
